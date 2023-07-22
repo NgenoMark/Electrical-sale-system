@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="main-scene" class="scene">
+        <div class="menu-container">
+            <h2>Menu</h2>
+            <button id="add-tool-btn" onclick = "redirectToAddtools()">Add Tool</button>  <br> <br>
+            <button id="check-tools-btn" onclick = "redirectToChecktools()">Check Available Tools</button>  <br> <br>
+            <button id="sell-product-btn" onclick = "redirectToSelltool()">Sell Product</button>  <br> <br>
+        </div>
+        <script>
+            function redirectToAddtools(){
+                window.location.href = "addtools.html";
+            }
+            function redirectToChecktools(){
+                window.location.href = "checktools.php";
+            }
+            function redirectToSelltool(){
+                window.location.href = "selltools.html";
+            }
+        </script>
+    
+</body>
+</html>
